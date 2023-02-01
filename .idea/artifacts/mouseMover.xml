@@ -1,12 +1,12 @@
 <component name="ArtifactManager">
-  <artifact type="jpackage" name="mouseMover (Platform)">
-    <output-path>$PROJECT_DIR$/out/artifacts/mouseMover__Platform_</output-path>
+  <artifact type="jpackage" name="mouseMover">
+    <output-path>$PROJECT_DIR$/out/artifacts/mouseMover</output-path>
     <properties id="jpackage-properties">
       <options>
         <option name="version" value="1.0" />
-        <option name="copyright" value="" />
+        <option name="copyright" value="alvstw" />
         <option name="description" value="" />
-        <option name="vendor" value="" />
+        <option name="vendor" value="alvstw" />
         <option name="mainClass" value="com.alvstw.mousemover.MainApplication" />
       </options>
     </properties>
