@@ -32,6 +32,7 @@ public class MainController {
             mouseMoverTask.setDelay(Integer.parseInt(delayText));
         }
 
+        descriptionText.setVisible(true);
         descriptionText.setText("Mouse will move every " + mouseMoverTask.getDelay() + " milliseconds");
         mouseMoverTask.start();
     }
