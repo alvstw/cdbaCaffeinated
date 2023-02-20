@@ -1,8 +1,8 @@
-package com.alvstw.mousemover;
+package com.CDBA.Caffeinated;
 
 public class MouseMoverTask extends Thread {
     private final MouseService mouseService;
-    private int delay = 5000;
+    private int delay = 10000;
     public MouseMoverTask() {
         mouseService = new MouseService();
     }
@@ -21,8 +21,8 @@ public class MouseMoverTask extends Thread {
             int x = mouseService.getMouseX();
             int y = mouseService.getMouseY();
 
-            mouseService.moveMouseRelative(100, 100, 100);
-            mouseService.moveMouse(x, y, 100);
+            mouseService.moveMouseRelative(20, 20, 50);
+            mouseService.moveMouse(x, y, 50);
 
             try {
                 Thread.sleep(delay);

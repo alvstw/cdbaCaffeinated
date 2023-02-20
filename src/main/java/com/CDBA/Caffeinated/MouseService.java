@@ -1,4 +1,4 @@
-package com.alvstw.mousemover;
+package com.CDBA.Caffeinated;
 
 
 import java.awt.*;

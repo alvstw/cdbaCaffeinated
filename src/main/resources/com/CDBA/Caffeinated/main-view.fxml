@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import com.alvstw.mousemover.NumberTextField?>
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.VBox?>
+<!--<?import com.CDBA.Caffeinated.NumberTextField?>-->
 <VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="com.alvstw.mousemover.MainController">
+      fx:controller="com.CDBA.Caffeinated.MainController">
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
     </padding>
     <VBox alignment="CENTER">
-        <Label text="Mouse Mover" style="-fx-font-size: 30px;"/>
+        <Label text="CDBA Caffeinated" style="-fx-font-size: 30px;"/>
         <Label text="v1.0" style="-fx-font-size: 15px;"/>
     </VBox>
     <Label fx:id="descriptionText"/>
     <Label text="Delay (ms)"/>
-    <NumberTextField fx:id="delay" text="5000" promptText="Delay"/>
+<!--    <NumberTextField fx:id="delay" text="5000" promptText="Delay"/>-->
     <Button fx:id="startButton" text="Start" onAction="#onStartButtonClick"/>
     <Button fx:id="stopButton" text="Stop" onAction="#onStopButtonClick" visible="false" managed="false"/>
 </VBox>

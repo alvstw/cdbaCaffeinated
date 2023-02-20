@@ -1,4 +1,4 @@
-package com.alvstw.mousemover;
+package com.CDBA.Caffeinated;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
@@ -13,8 +13,8 @@ public class MainController {
     protected Button stopButton;
     @FXML
     private Label descriptionText;
-    @FXML
-    protected NumberTextField delay;
+//    @FXML
+//    protected NumberTextField delay;
 
     public MainController() {
         mouseMoverTask = new MouseMoverTask();
@@ -27,13 +27,13 @@ public class MainController {
         stopButton.setVisible(true);
         stopButton.setManaged(true);
 
-        String delayText = delay.getText();
-        if (delayText != null && !delayText.isEmpty()) {
-            mouseMoverTask.setDelay(Integer.parseInt(delayText));
-        }
+//        String delayText = delay.getText();
+//        if (delayText != null && !delayText.isEmpty()) {
+//            mouseMoverTask.setDelay(Integer.parseInt(delayText));
+//        }
 
         descriptionText.setVisible(true);
-        descriptionText.setText("Mouse will move every " + mouseMoverTask.getDelay() + " milliseconds");
+        descriptionText.setText("You will be caffeinated every " + mouseMoverTask.getDelay() + " milliseconds");
         mouseMoverTask.start();
     }
 

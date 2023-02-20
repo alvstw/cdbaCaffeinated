@@ -1,9 +1,9 @@
-module com.alvstw.mousemover {
+module com.CDBA.Caffeinated {
     requires javafx.controls;
     requires javafx.fxml;
     requires java.desktop;
 
 
-    opens com.alvstw.mousemover to javafx.fxml;
-    exports com.alvstw.mousemover;
+    opens com.CDBA.Caffeinated to javafx.fxml;
+    exports com.CDBA.Caffeinated;
 }

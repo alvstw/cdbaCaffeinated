@@ -1,4 +1,4 @@
-package com.alvstw.mousemover;
+package com.CDBA.Caffeinated;
 
 public class Launcher {
     public static void main(String[] args) {
